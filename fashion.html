@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>J-Fashion 101</title>
+
+    <!-- SEO -->
+     <meta name="description" content="Explore Japanese fashion subcultures like Lolita, Gyaru, Decora, and more. Learn about their origins, brands, influencers, and style specifics on J-Fashion 101.">
+     <meta name="keywords" content="Japanese fashion, J-fashion, Lolita, Gyaru, Jirai-kei, Himekaji, Decora,Mori-Kei, subcultures">
+
+    </head>
 <body>
     <nav>
         <ul>
@@ -21,16 +26,35 @@
               <li><a href="#">Mori-Kei</a></li>
             </ul>
           
-          <li><input type="text" placeholder="Search" id="search"></li>
+          <li><input type="text" placeholder="Search" id="search-input"></li>
         </ul>
       </nav>
     
-      <!-- Main Content Area -->
-      <section id="content">
-        <h1>Welcome to Japanese Fashion Subcultures</h1>
+      <!-- Website about section -->
+      <section id="about">
+        <h1>Welcome to J-Fashion 101</h1>
         <p>This website explores fashion subcultures in Japan. Our goal is to create an online encyclopedia that documents the history, influences, and style basics for these subcultures in an accessible way.
             Select a subculture from the dropdown to learn more!</p>
       </section>
+
+<!-- template display section for subcultures -->
+      <div class="subculture-container">
+        <div id="post-list">
+        </div>
+    </div>
+
+    <template id="post-template">
+                <div class="subculture-card">
+                    <h2 class= "subculture-title"></h2>
+                    <p class= "subculture-overview"></p>
+                    <h2 class= "subculture-origins">Origins</h2>
+                    <p class= "origins-content"></p>
+                    <h2 class= "subculture-style-basics">Style Basics</h2>
+                    <p class= "style-basics-content"></p>
+                    <h2 class= "subculture-gallery">Gallery</h2>
+                    <img class= "gallery-content" src="">
+                </div>
+    </template>
     
       <!-- Footer -->
       <footer>
