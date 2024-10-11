@@ -1,0 +1,126 @@
+{
+    "fashion": [
+        {
+          "Id": 1,
+          "description": "A feminine fashion inspired by Victorian and Rococo styles, featuring frills, lace, and petticoats.",
+          "category": "Lolita",
+          "img": ""
+        },
+        {
+          "Id": 2,
+          "description": "A casual and princess-like style with soft colors and girly silhouettes, often inspired by fairy tales.",
+          "category": "Himekaji"
+      ,
+      "img": ""
+        },
+        {
+          "Id": 3,
+          "description": "A glamorous and over-the-top gyaru style featuring tiaras, big hair, and lots of pink.",
+          "category": "Hime Gyaru",
+          "img": ""
+        },
+        {
+          "Id": 4,
+          "description": "A rebellious style characterized by black clothing, dark makeup, and a punk rock influence.",
+          "category": "Gothic Lolita",
+          "img": ""
+        },
+        {
+          "Id": 5,
+          "description": "A bright and colorful fashion inspired by decora and Harajuku street style, featuring layers and accessories.",
+          "category": "Fairy Kei",
+          "img": ""
+        },
+        {
+          "Id": 6,
+          "description": "A substyle of Lolita that mixes masculine and feminine elements with tailored jackets and waistcoats.",
+          "category": "Ouji",
+          "img": ""
+        },
+        {
+          "Id": 7,
+          "description": "A bold, glamorous fashion featuring heavy makeup, tanned skin, and dramatic clothing.",
+          "category": "Gyaru",
+          "img": ""
+        },
+        {
+          "Id": 8,
+          "description": "A darker, more elegant variation of Gyaru that combines gothic elements with feminine glam.",
+          "category": "Agejo",
+          "img": ""
+        },
+        {
+          "Id": 9,
+          "description": "A casual, street-style subculture that mixes Western clothing with Japanese street fashion.",
+          "category": "Amekaji",
+          "img": ""
+        },
+        {
+          "Id": 10,
+          "description": "A style based on the traditional uniforms worn by students in Japan, but with a fashionable twist.",
+          "category": "Seifuku Kei",
+          "img": ""
+        },
+        {
+          "Id": 11,
+          "description": "A futuristic, sci-fi-inspired fashion using metallic colors and sleek designs to create a modern look.",
+          "category": "Cyber Kei",
+          "img": ""
+        },
+        {
+          "Id": 12,
+          "description": "A natural and earthy fashion with soft, muted tones and flowing, relaxed silhouettes.",
+          "category": "Mori Kei",
+          "img": ""
+        },
+        {
+          "Id": 13,
+          "description": "A bright, kitschy style focused on pop culture and '80s/early '90s nostalgia, often layered with toys and accessories.",
+          "category": "Decora",
+          "img": ""
+        },
+        {
+          "Id": 14,
+          "description": "A substyle of Lolita with a more muted color palette and a focus on historical accuracy.",
+          "category": "Classic Lolita",
+          "img": ""
+        },
+        {
+          "Id": 15,
+          "description": "A style inspired by old European and aristocratic fashion, often featuring ruffled shirts and elegant long coats.",
+          "category": "Aristocrat",
+          "img": ""
+        },
+        {
+          "Id": 16,
+          "description": "A heavily DIY fashion with a punk edge, often using patches, studs, and torn fabrics to create an anarchy-inspired look.",
+          "category": "Punk Kei",
+          "img": ""
+        },
+        {
+          "Id": 17,
+          "description": "A cute and sporty fashion often inspired by tennis or school uniforms, incorporating pastel colors and casual elements.",
+          "category": "Spank!",
+          "img": ""
+        },
+        {
+          "Id": 18,
+          "description": "A mature and chic version of Lolita with a focus on darker tones, such as deep reds, blacks, and jewel tones.",
+          "category": "Kuro Lolita",
+          "img": ""
+        },
+        {
+          "Id": 19,
+          "description": "A quirky and whimsical fashion style often inspired by retro and vintage Western fashions, with a playful twist.",
+          "category": "Otome Kei",
+          "img": ""
+        },
+        {
+          "Id": 20,
+          "description": "A military-inspired fashion that mixes historical elements with modern Japanese streetwear, creating structured looks.",
+          "category": "Military Lolita",
+          "img": ""
+        }
+    ]
+      
+}
