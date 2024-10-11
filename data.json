@@ -9,9 +9,8 @@
         {
           "Id": 2,
           "description": "A casual and princess-like style with soft colors and girly silhouettes, often inspired by fairy tales.",
-          "category": "Himekaji"
-      ,
-      "img": ""
+          "category": "Himekaji",
+          "img": ""
         },
         {
           "Id": 3,
@@ -25,7 +24,7 @@
           "category": "Gothic Lolita",
           "img": ""
         },
-        {
+        { 
           "Id": 5,
           "description": "A bright and colorful fashion inspired by decora and Harajuku street style, featuring layers and accessories.",
           "category": "Fairy Kei",
