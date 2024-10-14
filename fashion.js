@@ -17,13 +17,13 @@ function fetchPosts() {
             postList.innerHTML = ''; // Clear previous posts
 
             // Loop through posts and use the template to create cards
-            posts.forEach(post => {
+            subcultures.forEach(subculture => {
                 const clone = template.content.cloneNode(true);
-                clone.querySelector('.subculture-title').innerText = post.title;
-                clone.querySelector('.subculture-overview').innerText = post.body;
-                clone.querySelector('.origins-content').innerText = post.body;
+                clone.querySelector('.subculture-title').innerText = subculture.title;
+                clone.querySelector('.subculture-overview').innerText = subculture.overview;
+                clone.querySelector('.origins-content').innerText = subculture.body;
                 clone.querySelector('.style-basics-content').innerText = post.body;
-                clone.querySelector('.gallery-content').innerText = post.body;
+                clone.querySelector('.gallery-content').src = post.body;
                 postList.appendChild(clone);
             });
 }
@@ -39,12 +39,12 @@ function searchItems() {
     displayPosts(filteredSubcultures);
 }
 
-function filterByCategory(category) {
+function filterByCategory(subcultures) {
 
     if (category === 'all') {
         displaySubcultures(subcultures);
     } else {
-        const filteredSubcultures = subcultures.filter(subcultures => subculture.category.toLowerCase() === subculture.toLowerCase());
+        const filteredSubcultures = subcultures.filter(subculture => subculture.category.toLowerCase() === subculture.toLowerCase());
         displaySubcultures(filteredSubcultures);
     }
 }
