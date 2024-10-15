@@ -2,12 +2,13 @@
 let subcultures=[];
 
 function fetchPosts() {
-    fetch('http://localhost:3000/fashion')
+    fetch('http://localhost:3001/fashion')
         .then(response => response.json())
         .then(posts => {
             subcultures=posts;
             displaySubcultures(subcultures);
-        });
+        })
+        .catch(error => console.error('Error fetchingdata:', error));
     }
 
     function displaySubcultures(subcultures){
@@ -39,14 +40,24 @@ function searchItems() {
     displayPosts(filteredSubcultures);
 }
 
-function filterByCategory(subcultures) {
+function filterBySubculture(category) {
 
     if (category === 'all') {
         displaySubcultures(subcultures);
     } else {
-        const filteredSubcultures = subcultures.filter(subculture => subculture.category.toLowerCase() === subculture.toLowerCase());
+        const filteredSubcultures = subcultures.filter(subculture => subculture.category.toLowerCase() === category.toLowerCase());
         displaySubcultures(filteredSubcultures);
     }
 }
 
+// adds event listeners to elements with data-category atribute
+document.querySelectorAll('ul li a[data-category]').forEach(item =>{
+    item.addEventListener('click', (event)=>{
+        event.preventDefault();
+        const title = event.target.dataset.title;
+        if (title){
+        filterBySubculture(title);
+        }
+    })
+})
 fetchPosts();

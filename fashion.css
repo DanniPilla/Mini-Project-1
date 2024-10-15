@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(249, 169, 205);
+    background-color: rgb(255, 255, 255);
 }
 .container {
     background-color: rgb(245, 249, 169);
@@ -83,16 +83,17 @@ section#about {
 
 }
 
-.subculture-container {
 
-}
 
 .subculture-card {
-    border: 1px solid ;
+    border: 2px solid ;
+    border-color: rgb(169, 249, 212);
     padding: 15px;
     margin: 10px;
-    background-color: rgb(250, 143, 191);
+    background-color: rgb(249, 169, 205);
     border-radius: 5px;
+    text-align: center;
+     
 }
 
 .subculture-title {
