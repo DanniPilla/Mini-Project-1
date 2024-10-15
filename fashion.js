@@ -2,7 +2,7 @@
 let subcultures=[];
 
 function fetchPosts() {
-    fetch('https://jsonplaceholder.typicode.com/posts?_limit=10')
+    fetch('http://localhost:3000/fashion')
         .then(response => response.json())
         .then(posts => {
             subcultures=posts;
@@ -20,10 +20,10 @@ function fetchPosts() {
             subcultures.forEach(subculture => {
                 const clone = template.content.cloneNode(true);
                 clone.querySelector('.subculture-title').innerText = subculture.title;
-                clone.querySelector('.subculture-overview').innerText = subculture.overview;
-                clone.querySelector('.origins-content').innerText = subculture.body;
-                clone.querySelector('.style-basics-content').innerText = post.body;
-                clone.querySelector('.gallery-content').src = post.body;
+                clone.querySelector('.subculture-overview').innerText = subculture.Overview;
+                clone.querySelector('.origins-content').innerText = subculture.origins;
+                clone.querySelector('.style-basics-content').innerText = subculture.styleBasics;
+                clone.querySelector('.gallery-content').src = subculture.img;
                 postList.appendChild(clone);
             });
 }
@@ -31,9 +31,9 @@ function fetchPosts() {
 function searchItems() {
 
     const searchInput = document.getElementById('search-input').value.toLowerCase();
-    const filteredSubcultures = subcultures.filter(subcultures =>
-        subculture.title.toLowerCase().includes(searchInput) || //Boolean, so if the search input matches it will display in category
-        subculture.category.toLowerCase().includes(searchInput)
+    const filteredSubcultures = subcultures.filter(subculture =>
+        subculture.title.toLowerCase().includes(searchInput) || 
+        subculture.Overview.toLowerCase().includes(searchInput)
     );
 
     displayPosts(filteredSubcultures);

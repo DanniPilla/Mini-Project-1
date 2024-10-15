@@ -30,8 +30,12 @@
               <li><a href="#">Mori-Kei</a></li>
             </ul>
           
-          <li><input type="text" placeholder="Search" id="search-input"></li>
+          <li>
+            <form onsubmit="event.preventDefault(); searchItems();">
+            <input type="text" placeholder="Search" id="search-input">
           <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </li>
         </ul>
       </nav>
     </div>
