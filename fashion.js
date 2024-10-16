@@ -50,14 +50,5 @@ function filterBySubculture(category) {
     }
 }
 
-// adds event listeners to elements with data-category atribute
-document.querySelectorAll('ul li a[data-category]').forEach(item =>{
-    item.addEventListener('click', (event)=>{
-        event.preventDefault();
-        const title = event.target.dataset.title;
-        if (title){
-        filterBySubculture(title);
-        }
-    })
-})
+
 fetchPosts();
