@@ -37,7 +37,7 @@ function searchItems() {
         subculture.Overview.toLowerCase().includes(searchInput)
     );
 
-    displayPosts(filteredSubcultures);
+    displaySubcultures(filteredSubcultures);
 }
 
 function filterBySubculture(category) {
