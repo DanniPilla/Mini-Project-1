@@ -45,7 +45,7 @@ function filterBySubculture(category) {
     if (category === 'all') {
         displaySubcultures(subcultures);
     } else {
-        const filteredSubcultures = subcultures.filter(subculture => subculture.category.toLowerCase() === category.toLowerCase());
+        const filteredSubcultures = subcultures.filter(subculture => subculture.title.toLowerCase() === category.toLowerCase());
         displaySubcultures(filteredSubcultures);
     }
 }
