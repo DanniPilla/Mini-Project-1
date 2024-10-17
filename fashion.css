@@ -42,6 +42,10 @@ nav ul li {
 margin: 5px 0;
 position: relative
 }
+.logo{
+    flex-wrap: wrap;
+    display: flex;
+}
 
 /* dropdown menu */
 nav ul li ul {
@@ -128,12 +132,15 @@ footer {
 .navbar, nav ul{
     flex-direction: row;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
 
 }
 
 nav ul li{
-    margin: 0 10px;
+   display: flex;
+
 }
 
 #search-input{
