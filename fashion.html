@@ -1,19 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J-Fashion 101</title>
 
-    <!-- SEO -->
-     <meta name="description" content="Explore Japanese fashion subcultures like Lolita, Gyaru, Decora, and more. Learn about their origins, brands, influencers, and style specifics on J-Fashion 101.">
-     <meta name="keywords" content="Japanese fashion, J-fashion, Lolita, Gyaru, Jirai-kei, Himekaji, Decora,Mori-Kei, subcultures">
-<link rel="stylesheet" href="fashion.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>J-Fashion 101</title>
+
+  <!-- SEO -->
+  <meta name="description"
+    content="Explore Japanese fashion subcultures like Lolita, Gyaru, Decora, and more. Learn about their origins, brands, influencers, and style specifics on J-Fashion 101.">
+  <meta name="keywords"
+    content="Japanese fashion, J-fashion, Lolita, Gyaru, Jirai-kei, Himekaji, Decora,Mori-Kei, subcultures">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="fashion.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+</head>
+
 <body>
-  <div class="container">
+
+  <!-- Navigation bar with store name clickable -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <a class="navbar-brand" href="#" onclick="filterBySubculture('all')">J-Fashion 101</a>
+
+
+      <!-- Search -->
+      <form class="d-flex ms-auto my-2 my-lg-0" onsubmit="return false;">
+        <input class="form-control me-2" type="search" placeholder="Search" id="search-input" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" onclick="searchItems()">Search</button>
+      </form>
+      <!-- Category Filter -->
+      <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+          Subcultures
+        </button>
+        <ul class="dropdown-menu" id="category-filter">
+          <li><a href="#">All</a></li>
+          <li><a class="dropdown-item" href="#" onclick="filterBySubculture('Jirai Kei')">Jirai-kei</a></li>
+          <li><a class="dropdown-item" href="#" onclick="filterBySubculture('Gyaru')">Gyaru</a></li>
+          <li><a class="dropdown-item" href="#" onclick="filterBySubculture('Himekaji')">Himekaji</a></li>
+          <li><a class="dropdown-item" href="#" onclick="filterBySubculture('Decora')">Decora</a></li>
+          <li><a class="dropdown-item" href="#" onclick="filterBySubculture('Lolita')">Lolita</a></li>
+          <li><a class="dropdown-item" href="#" onclick="filterBySubculture('Mori Kei')">Mori-Kei</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- <div class="container">
     <div class="navbar">
+
+      <nav class="navbar navbar-light bg-light justify-content-between">
+        <a class="navbar-brand">Navbar</a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2 search-input" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
     <nav>
       <h1 class="logo">J-Fashion 101</h1>
         <ul>
@@ -39,40 +89,43 @@
         </ul>
       </nav>
     </div>
-  </div> 
+  </div>  -->
 
-      <!-- Website about section -->
-      <section id="about">
-        <h1>Welcome to J-Fashion 101</h1>
-        <i class="fa fa-heart" aria-hidden="true"></i>
-        <p>This website explores fashion subcultures in Japan. <br>Our goal is to create an online encyclopedia that documents the history, influences, and style basics for these subcultures in an accessible way.
-           <br>Select a subculture from the dropdown to learn more!</p>
-      </section>
+  <!-- Website about section -->
+  <section id="about">
+    <h1>Welcome to J-Fashion 101</h1>
+    <i class="fa fa-heart" aria-hidden="true"></i>
+    <p>This website explores fashion subcultures in Japan. <br>Our goal is to create an online encyclopedia that
+      documents the history, influences, and style basics for these subcultures in an accessible way.
+      <br>Select a subculture from the dropdown to learn more!
+    </p>
+  </section>
 
-<!-- template display section for subcultures -->
-      <div class="subculture-container">
-        <div id="post-list">
-        </div>
+  <!-- template display section for subcultures -->
+  <div class="subculture-container">
+    <div id="post-list">
     </div>
+  </div>
 
-    <template id="post-template">
-                <div class="subculture-card">
-                    <h2 class= "subculture-title"></h2>
-                    <p class= "subculture-overview"></p>
-                    <h2 class= "subculture-origins">Origins</h2>
-                    <p class= "origins-content"></p>
-                    <h2 class= "subculture-style-basics">Style Basics</h2>
-                    <p class= "style-basics-content"></p>
-                    <h2 class= "subculture-gallery">Gallery</h2>
-                    <img class= "gallery-content" src="">
-                </div>
-    </template>
-    
-      <!-- Footer -->
-      <footer>
-        <p>&copy; 2024 Japanese Fashion Subcultures</p>
-      </footer>
-    
-      <script src="fashion.js"></script>  
+  <template id="post-template">
+    <div class="subculture-card">
+      <h2 class="subculture-title"></h2>
+      <p class="subculture-overview"></p>
+      <h2 class="subculture-origins">Origins</h2>
+      <p class="origins-content"></p>
+      <h2 class="subculture-style-basics">Style Basics</h2>
+      <p class="style-basics-content"></p>
+      <h2 class="subculture-gallery">Gallery</h2>
+      <img class="gallery-content" src="">
+    </div>
+  </template>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Japanese Fashion Subcultures</p>
+  </footer>
+
+  <script src="fashion.js"></script>
 </body>
+
 </html>
