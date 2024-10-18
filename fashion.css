@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(248, 226, 243);
+    background-color: rgb(248, 226, 243) !important;
 }
 
 
@@ -19,17 +19,17 @@ a {
 .navbar {
     position: fixed;
     border-bottom: 2px solid rgb(233, 95, 164);
-    top:0;
-    z-index:1000;
+    top: 0;
+    z-index: 1000;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     width: 100%;
     height: 70px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background-color: rgb(245, 249, 169);
+    background-color: rgb(249, 169, 200) !important;
 }
 
 nav ul {
@@ -47,8 +47,10 @@ nav ul li {
 }
 
 .navbar-brand {
-  margin-left:20px;
-  font-weight: bold;
+
+    color: #f758ba !important;
+    font-size: xx-large !important;
+    margin-left: 20px;
 }
 
 /* dropdown menu */
@@ -68,7 +70,7 @@ nav ul li:hover ul {
 }
 
 nav ul li ul a:hover {
-    background-color: rgb(255, 200, 230);
+    background-color: rgb(255, 200, 230) !important;
     color: black;
 }
 
@@ -92,12 +94,12 @@ nav ul li ul a:hover {
     display: table;
 }
 
-/* button {
+.btn-primary {
     cursor: pointer;
-    background-color: rgb(250, 143, 191);
-    color: white;
-    border: none;
-} */
+    background-color: rgb(250, 143, 191) !important;
+    color: white !important;
+    border: none !important;
+}
 
 section#about {
     padding: 20px;
@@ -115,11 +117,20 @@ section#about {
     text-align: center;
 
 }
-img{
-height: 300px;
-width: 200px;
-object-fit: cover;
+
+img {
+    margin:30px 0 30px 0;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border:2px solid #f758ba;
+    transition: transform 0.3s ease;
 }
+
+img:hover{
+    transform: scale(1.1);
+}
+
 
 
 footer {
@@ -167,9 +178,9 @@ footer {
         margin: 0;
     }
 
-    img{
+    img {
         object-fit: none;
-        height:auto;
-        width:auto;
+        height: auto;
+        width: auto;
     }
 }
