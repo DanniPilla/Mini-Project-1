@@ -8,6 +8,8 @@ Users can search for specific subcultures.
 - Filter content by subculture
 - Search functionality to find specific subcultures
 - Responsive design for desktop and mobile views
+- Subtle animation with key frames
+- Image hover transform 
 
 ## Prerequisites
 Before you can run this project, install the following:
