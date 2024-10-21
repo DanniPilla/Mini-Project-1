@@ -1,0 +1,209 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 226, 243) !important;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit
+}
+
+.container {
+    background-color: rgb(245, 249, 169);
+    height: 70px;
+}
+
+
+
+.navbar {
+    position: fixed;
+    border-bottom: 2px solid rgb(233, 95, 164);
+    top: 0;
+    z-index: 1000;
+    display: flex; 
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    background-color: rgb(249, 169, 200) !important;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav ul li {
+    margin: 5px 0;
+    position: relative
+}
+
+.navbar-brand {
+
+    color: #f758ba !important;
+    font-size: xx-large !important;
+    margin-left: 20px;
+}
+
+/* dropdown menu
+nav ul li ul {
+    display: none;
+    /* Hide dropdown initially */
+    /* flex-direction: column;
+    position: absolute;
+    background-color: rgb(250, 143, 191);
+    padding: 10px;
+
+} */ 
+
+/* nav ul li:hover ul {
+    display: flex;
+
+} */
+
+/* nav ul li ul a:hover {
+    background-color: rgb(255, 200, 230) !important;
+    color: black;
+} */
+
+#search-input {
+    /* width: 100%;
+    max-width: 200px;
+    padding: 5px;
+    margin: 10px 0; */
+    border-color: rgb(233, 95, 164);
+
+}
+
+#search-input:hover {
+    border-color:rgb(233, 95, 164);
+    background-color: rgb(245, 214, 228);
+}
+
+/* #search-input::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
+
+
+/* subcultures button */
+.btn-primary {
+    cursor: pointer;
+    background-color: rgb(250, 143, 191) !important;
+    color: white !important;
+    border: none !important;
+}
+
+.btn-primary:hover{
+    background-color: rgb(233, 95, 164) !important;
+        border-color: rgb(233, 95, 164) !important;
+        color: white !important;
+}
+/* search button */
+.btn-outline-success {
+    background-color: rgb(250, 143, 191) !important;
+    color: white !important;
+    border-color: rgb(250, 143, 191) !important;
+    margin-right: 10px
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(233, 95, 164) !important;
+    border-color: rgb(233, 95, 164) !important;
+    color: white !important;
+}
+
+section#about {
+    padding: 20px;
+    text-align: center;
+}
+
+.subculture-card {
+    border: 2px solid;
+    border-color: rgb(169, 249, 212);
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(249, 169, 205);
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+img {
+    margin:30px 0 30px 0;
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border:2px solid #f758ba;
+    transition: transform 0.3s ease;
+}
+
+img:hover{
+    transform: scale(1.1);
+}
+
+h1, h2{
+    color: white !important;
+    text-shadow:-2px -2px 0 #f758ba,2px -2px 0 #f758ba,-2px 2px 0 #f758ba,2px 2px 0 #f758ba !important;
+}
+
+footer {
+    text-align: center;
+}
+
+.fa-heart {
+    animation: colorChange 3s infinite;
+    color: rgb(249, 169, 205);
+}
+
+@keyframes colorChange {
+    0% {
+        color: rgb(249, 169, 205);
+    }
+
+    50% {
+        color: rgb(233, 95, 164);
+    }
+
+    100% {
+        color: rgb(249, 169, 205);
+    }
+}
+
+/* Larger screen adjustments */
+@media (min-width: 600px) {
+
+    .navbar,
+    nav ul {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        align-items: center;
+
+    }
+
+    nav ul li {
+        display: flex;
+
+    }
+
+    #search-input {
+        margin: 0;
+    }
+
+    img {
+        object-fit: none;
+        height: auto;
+        width: auto;
+    }
+}
