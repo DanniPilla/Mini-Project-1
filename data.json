@@ -1,0 +1,164 @@
+{
+  "fashion": [
+    {
+      "Id": 1,
+      "Overview": "A feminine fashion inspired by Victorian and Rococo styles, featuring frills, lace, and petticoats.",
+      "title": "Lolita",
+      "img": "https://angelicpretty-paris.com/img/cms/000/Circle/cropped_20.png",
+      "origins": "Originated in Japan in the 1980s, influenced by Victorian and Rococo European styles.",
+      "styleBasics": "Frilly dresses, petticoats, lace gloves, bonnets."
+    },
+    {
+      "Id": 2,
+      "Overview": "A casual and princess-like style with soft colors and girly silhouettes, often inspired by fairy tales.",
+      "title": "Himekaji",
+      "img": "https://media.karousell.com/media/photos/products/2018/12/08/liz_lisa_japan_lucky_bag_2017__bnwt_luggage__my_melody_dress__cardigan__sailor_knit_blouse_1544203016_ca992e0b_progressive.jpg",
+      "origins": "Emerged in Japan in the early 2000s as a toned-down version of Hime Gyaru.",
+      "styleBasics": "Soft pastel colors, floral prints, flowy skirts, girly accessories."
+    },
+    {
+      "Id": 3,
+      "Overview": "A glamorous and over-the-top gyaru style featuring tiaras, big hair, and lots of pink.",
+      "title": "Hime Gyaru",
+      "img": "https://preview.redd.it/wcif-hime-gyaru-dresses-like-the-pictures-v0-uw4n5l3qmo5b1.jpg?width=300&format=pjpg&auto=webp&s=99f47dc0a8edee98a7c449d0f89053c6cbf1daef",
+      "origins": "Developed from the Gyaru subculture in the 1990s, influenced by Western princess aesthetics.",
+      "styleBasics": "Big curls, tiaras, pink tones, extravagant dresses."
+    },
+    {
+      "Id": 4,
+      "Overview": "A stylish, feminine look popular among young office ladies and women in their 20s, focused on classy, elegant clothing worn for socializing or work.",
+      "title": "Ryousangata",
+      "img": "https://contents.multilingualcart.com/ori/50934/goods_img/goods_2244_thum.jpg",
+      "origins": "Originated in Japan in the early 2010s as a go-to style for fashionable yet practical office wear, blending formal and casual elements.",
+      "styleBasics": "Tailored blazers, pencil skirts, feminine blouses, neutral or pastel tones, often accessorized with designer handbags and heels."
+    },
+    { 
+      "Id": 5,
+      "Overview": "A bright and colorful fashion inspired by decora and Harajuku street style, featuring layers and accessories.",
+      "title": "Fairy Kei",
+      "img": "https://statics.devilinspired.com/image/usr/uploads/2022/02/Fairy_kei_girl_2_2430568942.jpg",
+      "origins": "Popularized in Harajuku in the 2000s, mixing pastel colors and '80s nostalgia.",
+      "styleBasics": "Layered pastel clothes, plastic accessories, toy-inspired jewelry."
+    },
+    {
+      "Id": 6,
+      "Overview": "A substyle of Lolita that mixes masculine and feminine elements with tailored jackets and waistcoats.",
+      "title": "Ouji",
+      "img": "https://www.lolitain.com/image/cache/catalog/products/12289/5-500x672.jpg",
+      "origins": "Emerged as a counterpart to Lolita in the 1990s in Japan.",
+      "styleBasics": "Tailored shorts, waistcoats, knee-high socks, lace-up shoes."
+    },
+    {
+      "Id": 7,
+      "Overview": "A bold, glamorous fashion featuring heavy makeup, tanned skin, and dramatic clothing.",
+      "title": "Gyaru",
+      "img": "https://i.pinimg.com/736x/37/a8/a3/37a8a3c6b59f82d28bbd5896d49088f5.jpg",
+      "origins": "Emerged in the 1990s in Japan as a rebellion against traditional beauty standards.",
+      "styleBasics": "Bleached hair, fake tans, bold eye makeup, revealing clothing."
+    },
+    {
+      "Id": 8,
+      "Overview": "A darker, more elegant variation of Gyaru that combines gothic elements with feminine glam.",
+      "title": "Agejo",
+      "img": "https://i.pinimg.com/564x/f5/a9/b4/f5a9b462a9c16769560a2c918eb2e9f7.jpg",
+      "origins": "Born from hostess club fashion in the early 2000s, incorporating sexy and dark elements.",
+      "styleBasics": "Tight dresses, dark makeup, voluminous hairstyles, heels."
+    },
+    {
+      "Id": 9,
+      "Overview": "A casual, street-style subculture that mixes Western clothing with Japanese street fashion.",
+      "title": "Amekaji",
+      "img": "https://pbs.twimg.com/media/EYlR-9AXYAExQnP.jpg",
+      "origins": "Influenced by American casual fashion and adapted to Harajuku street style in the 1990s.",
+      "styleBasics": "Denim jackets, varsity jackets, sneakers, graphic tees."
+    },
+    {
+      "Id": 10,
+      "Overview": "A style based on the traditional uniforms worn by students in Japan, but with a fashionable twist.",
+      "title": "Seifuku Kei",
+      "img": "https://i.pinimg.com/736x/80/cd/50/80cd50b5fc4b95b25a0beddd48dedb10.jpg",
+      "origins": "Inspired by school uniforms and adapted into street fashion in the 2000s.",
+      "styleBasics": "Pleated skirts, blazers, ties, loafers."
+    },
+    {
+      "Id": 11,
+      "Overview": "A futuristic, sci-fi-inspired fashion using metallic colors and sleek designs to create a modern look.",
+      "title": "Cyber Kei",
+      "img": "https://i.pinimg.com/736x/1f/05/eb/1f05eb495723925b4d2b739fca7e727e.jpg",
+      "origins": "Emerged in the late 1990s, influenced by sci-fi media and rave culture.",
+      "styleBasics": "Neon colors, metallic fabrics, platform boots, tech accessories."
+    },
+    {
+      "Id": 12,
+      "Overview": "A natural and earthy fashion with soft, muted tones and flowing, relaxed silhouettes.",
+      "title": "Mori Kei",
+      "img": "https://i.pinimg.com/originals/7e/d7/09/7ed709e74cc4afc5a54cb322cadd2679.jpg",
+      "origins": "Emerged in the 2000s as an alternative to flashy street fashion, inspired by nature.",
+      "styleBasics": "Earth tones, loose layers, natural fabrics, vintage accessories."
+    },
+    {
+      "Id": 13,
+      "Overview": "A bright, kitschy style focused on pop culture and '80s/early '90s nostalgia, often layered with toys and accessories.",
+      "title": "Decora",
+      "img": "https://tokyofashion.com/wp-content/uploads/2019/05/NK-2019-04-14-012-001-Harajuku-DZ7-2177.jpg",
+      "origins": "Began in the 1990s in Harajuku, inspired by over-the-top accessories and bright colors.",
+      "styleBasics": "Bright colors, plastic hair clips, toy accessories, layered outfits."
+    },
+    {
+      "Id": 14,
+      "Overview": "A substyle of Lolita with a more muted color palette and a focus on historical accuracy.",
+      "title": "Classic Lolita",
+      "img": "https://i.pinimg.com/736x/c4/9f/ee/c49fee23cfe1289ef9a80d48245115d9.jpg",
+      "origins": "Developed as a more mature form of Lolita in the 2000s, focusing on historical and vintage-inspired aesthetics.",
+      "styleBasics": "Muted colors, long skirts, lace gloves, vintage accessories."
+    },
+    {
+      "Id": 15,
+      "Overview": "A style inspired by old European and aristocratic fashion, often featuring ruffled shirts and elegant long coats.",
+      "title": "Aristocrat",
+      "img": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYXFtWyINhz7zNbMFUjECWqejLdK0dnU5Nih4Nq5HafFXpKlp45vBhayruFvkfW-0tZcu31YeV8MzpE0fpPzfIBeTEMmRwlMDP32gulH2K0cYsOyreZR8VpAkdlp3UgU3cUYcV2W1AfUsk/s1600/SCAN0421.jpg",
+      "origins": "Inspired by Victorian and Gothic fashion in the 1990s as an extension of the Lolita movement.",
+      "styleBasics": "Long coats, high collars, ruffled shirts, dark colors."
+    },
+    {
+      "Id": 16,
+      "Overview": "A heavily DIY fashion with a punk edge, often using patches, studs, and torn fabrics to create an anarchy-inspired look.",
+      "title": "Punk Kei",
+      "img": "https://www.theteenmagazine.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBemdoQWc9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--08d63c88c07373ed816ec88a4a28498713c112f3/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKZDJWaWNBWTZCa1ZVT2hOeVpYTnBlbVZmZEc5ZlptbHNiRnNIYVFJZ0Eya0NNQUk9IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--f48dfd2d7a6842ffbb4136385786d1d06cd7fae1/Visual_kei_1.jpg",
+      "origins": "Inspired by Western punk culture in the 1980s and adapted into Japanese street fashion.",
+      "styleBasics": "Plaid skirts, leather jackets, spikes, torn fabrics."
+    },
+    {
+      "Id": 17,
+      "Overview": "A mature and chic version of Lolita with a focus on darker tones, such as deep reds, blacks, and jewel tones.",
+      "title": "Kuro Lolita",
+      "img": "https://statics.devilinspired.com/image/usr/uploads/2022/02/3_1_Shiro_Lolita_and_Kuro_Lolita_3__1753050640.png",
+      "origins": "Emerged as a substyle of Lolita in the 2000s, focusing on gothic and elegant aesthetics.",
+      "styleBasics": "Black dresses, lace, corsets, dark makeup."
+    },
+    {
+      "Id": 18,
+      "Overview": "A quirky and whimsical fashion style often inspired by retro and vintage Western fashions, with a playful twist.",
+      "title": "Otome Kei",
+      "img": "https://i.pinimg.com/736x/be/df/2f/bedf2f8dd892b5a85f85e2fa1a4d53ba.jpg",
+      "origins": "Popularized in the 1980s, drawing inspiration from retro, girlish, and vintage fashion.",
+      "styleBasics": "Bold prints, cardigans, vintage-inspired dresses, quirky accessories."
+    },
+    {
+      "Id": 19,
+      "Overview": "A military-inspired fashion that mixes historical elements with modern Japanese streetwear, creating structured looks.",
+      "title": "Military Lolita",
+      "img": "https://www.lolitawardrobe.com/u_file/2010/photo/2b8d515a5b.jpg",
+      "origins": "Emerged in the 2000s, blending Lolita fashion with military-inspired details.",
+      "styleBasics": "Structured coats, epaulettes, brass buttons, boots."
+    },
+    {
+      "Id": 20,
+      "Overview": "A dark, melancholic style often associated with emotional themes, incorporating a mix of kawaii (cute) and yami (dark) aesthetics.",
+      "title": "Jirai Kei",
+      "img": "https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/8ed8f1ac-dc6b-472f-bd38-1bcc7b1af569/width=450/00183-242876782-realistic,photorealistic,best%20quality,masterpiece,highres,8k,RAW%20photo,ultra-detailed,1girl,smile,solo,looking%20at%20viewer,full%20bo.jpeg",
+      "origins": "Became popular in the late 2010s on Japanese social media, often linked to emotional or 'dangerous' aesthetics, with the name loosely translating to 'landmine-style.'",
+      "styleBasics": "Soft, pastel-colored outfits paired with darker makeup, chokers, oversized sweaters, short skirts, and layered accessories, creating a vulnerable and melancholic look."
+    }
+  ]
+}
