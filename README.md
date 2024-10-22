@@ -28,6 +28,11 @@ Before you can run this project, install the following:
 - Use the dropdown menu under "Subcultures" to filter content by specific subcultures.
 - Use the search bar to find specific fashion subcultures.
 
+## Branching Strategy
+In past projects I have struggled in creating too many branches and cross my wires in terms of updates, making the branches meaningless. 
+With this project I wanted to focus on tight and simple. I made two branches, one for the API and one for for the client. This had more success in keeping separation which I aim to build on. 
+I tried to commit whenever I made a significant change, with my comments reflecting what had changed so if anything broke I could go through my git history and pin point the error.
+
 ## Additional Notes
 This project uses a custom JSON file as the data source. If you wish to edit or add new subcultures, modify the JSON file located in the data directory.
 
