@@ -1,9 +1,19 @@
 let subcultures = [];
 
+let cachedData = null;
+
 function fetchPosts() {
+  if (cachedData) {
+    // If there is cached data, use that
+    displaySubcultures(cachedData);
+    return; // exit early to avoid making network request
+  }
+
+  // Now fetch from server if there is no cached data
   fetch("http://localhost:3000/fashion")
     .then((response) => response.json())
     .then((posts) => {
+      cachedData = posts;
       subcultures = posts;
       displaySubcultures(subcultures);
     })
@@ -33,7 +43,7 @@ function displaySubcultures(subcultures) {
       ) {
         console.log("Subculture data is missing properties", subculture);
 
-        return; // this will skip iterationg if there are any missing data properties.
+        return; // this will skip iteration if there are any missing data properties.
       }
 
       const clone = template.content.cloneNode(true);
