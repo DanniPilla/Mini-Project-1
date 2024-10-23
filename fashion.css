@@ -17,7 +17,7 @@ a {
 
 
 .navbar {
-    position: fixed;
+    position: sticky !important;
     border-bottom: 2px solid rgb(233, 95, 164);
     top: 0;
     z-index: 1000;
@@ -101,6 +101,7 @@ nav ul li ul {
     background-color: rgb(250, 143, 191) !important;
     color: white !important;
     border: none !important;
+    margin-right: 10px;
 }
 
 .btn-primary:hover{
@@ -181,7 +182,9 @@ footer {
 
 /* Larger screen adjustments */
 @media (min-width: 600px) {
-
+body{
+    font-size: 20px !important;
+}
     .navbar,
     nav ul {
         flex-direction: row;

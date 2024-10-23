@@ -11,7 +11,7 @@ function fetchPosts() {
 
   // Now fetch from server if there is no cached data
   fetch("http://localhost:3000/fashion")
-    .then((response) => response.json())
+    .then((response) => response.json()) //  the second time you use .then(), you are defining the name of the variable that will hold the array of objects from the JSON response. You can give it any name, and it will represent the data returned from the API.
     .then((posts) => {
       cachedData = posts;
       subcultures = posts;
@@ -27,7 +27,6 @@ function displaySubcultures(subcultures) {
       throw new Error("Data not available");
     }
 
-    //  the second time you use .then(), you are defining the name of the variable that will hold the array of objects from the JSON response. You can give it any name, and it will represent the data returned from the API.
     const postList = document.getElementById("post-list");
     const template = document.getElementById("post-template");
     postList.innerHTML = ""; // Clear previous posts
