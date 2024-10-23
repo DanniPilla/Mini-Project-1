@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J-Fashion 101</title>
+
+    <!-- SEO -->
+    <meta name="description"
+        content="Explore Japanese fashion subcultures like Lolita, Gyaru, Decora, and more. Learn about their origins, brands, influencers, and style specifics on J-Fashion 101.">
+    <meta name="keywords"
+        content="Japanese fashion, J-fashion, Lolita, Gyaru, Jirai-kei, Himekaji, Decora,Mori-Kei, subcultures">
+
+    <!-- Stylesheets -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="dictionary.css">
+</head>
+
+<body>
+
+    <!-- Navigation bar with store name clickable -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('all')">J-Fashion 101</a>
+
+
+            <!-- Search -->
+            <form class="d-flex ms-auto my-2 my-lg-0" onsubmit="return false;">
+                <input class="form-control me-2" type="search" placeholder="Search" id="search-input"
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" onclick="searchItems()">Search</button>
+            </form>
+            <!-- Category Filter -->
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                    Subcultures
+                </button>
+                <ul class="dropdown-menu" id="category-filter">
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('all')">All</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Jirai Kei')">Jirai Kei</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Gyaru')">Gyaru</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Himekaji')">Himekaji</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Decora')">Decora</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Lolita')">Lolita</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Mori Kei')">Mori Kei</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Hime Gyaru')">Hime Gyaru</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Ryousangata')">Ryousangata</a>
+                    </li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Fairy Kei')">Fairy Kei</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Ouji')">Ouji</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Agejo')">Agejo</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Amekaji')">Amekaji</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Seifuku Kei')">Seifuku Kei</a>
+                    </li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Cyber Kei')">Cyber Kei</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Classic Lolita')">Classic
+                            Lolita</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Aristocrat')">Aristocrat</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Punk Kei')">Punk Kei</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Kuro Lolita')">Kuro Lolita</a>
+                    </li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Otome Kei')">Otome Kei</a></li>
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/fashion.html#" onclick="filterBySubculture('Military Lolita')">Military
+                            Lolita</a></li>
+                </ul>
+            </div>
+<!-- resources dropdown -->
+            <div class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+                    Resources
+                </button>
+                <ul class="dropdown-menu" id="category-filter">
+                    <li><a class="dropdown-item" href="http://127.0.0.1:5500/dictionaryPage/dictionary.html#">Dictionary</a></li>
+                    <li><a class="dropdown-item" href="#" >Brands</a></li>
+                    <li><a class="dropdown-item" href="#" >Influencers</a></li>
+                    <li><a class="dropdown-item" href="#">Magazines</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Dictionary section -->
+    <section id="about">
+        <h1>Dictionary</h1>
+        <i class="fa fa-heart" aria-hidden="true"></i>
+        <p>J-fashion has many terms that can be tricky to keep track of. <br> Use this page as your glossary!
+        </p>
+        <img src="https://64.media.tumblr.com/e1fdeb2e5e17c4709f5abd463e1f03f7/tumblr_nvgj1peJFS1udoqv6o1_500.gif">
+    </section>
+
+<!-- Table of Contents -->
+
+
+<div class="contents-box">
+
+    <div class="contents-card">
+        <h1>Contents</h1>
+    <ul>
+    <li><a href="#" onclick="filterByWord('Kawaii')">Kawaii</a></li>
+    <li><a href="#" onclick="filterByWord('Ita')">Ita</a></li>
+    <li><a href="#" onclick="filterByWord('Brand Whore')">Brand Whore</a></li>
+    <li><a href="#" onclick="filterByWord('Coord')">Coord</a></li>
+    <li><a href="#" onclick="filterByWord('Decora')">Decora</a></li>
+    <li><a href="#" onclick="filterByWord('Otona')">Otona</a></li>
+    <li><a href="#" onclick="filterByWord('Blue Letter Fashion')">Blue Letter Fashion</a></li>
+    <li><a href="#" onclick="filterByWord('Otome')">Otome</a></li>
+    <li><a href="#" onclick="filterByWord('Kogal')">Kogal</a></li>
+    <li><a href="#" onclick="filterByWord('Menhera')">Menhera</a></li>
+    <li><a href="#" onclick="filterByWord('Banchō')">Banchō</a></li>
+    <li><a href="#" onclick="filterByWord('Sukeban')">Sukeban</a></li>
+    <li><a href="#" onclick="filterByWord('Yukata')">Yukata</a></li>
+    <li><a href="#" onclick="filterByWord('Zoku')">Zoku</a></li>
+    <li><a href="#" onclick="filterByWord('Furisode')">Furisode</a></li>
+    <li><a href="#" onclick="filterByWord('Komon')">Komon</a></li>
+    <li><a href="#" onclick="filterByWord('Obi')">Obi</a></li>
+    <li><a href="#" onclick="filterByWord('Harajuku')">Harajuku</a></li>
+    <li><a href="#" onclick="filterByWord('Cosplay')">Cosplay</a></li>
+    <li><a href="#" onclick="filterByWord('Aomoji')">Aomoji</a></li>
+    <li><a href="#" onclick="filterByWord('Kawaii Culture')">Kawaii Culture</a></li>
+    <li><a href="#" onclick="filterByWord('Street Fashion')">Street Fashion</a></li>
+    <li><a href="#" onclick="filterByWord('Aesthetic')">Aesthetic</a></li>
+    <li><a href="#" onclick="filterByWord('Fashionista')">Fashionista</a></li>
+    <li><a href="#" onclick="filterByWord('Wafuku')">Wafuku</a></li>
+    <li><a href="#" onclick="filterByWord('Moe')">Moe</a></li>
+    <li><a href="#" onclick="filterByWord('Gyaru Sempai')">Gyaru Sempai</a></li>
+    <li><a href="#" onclick="filterByWord('Sakura')">Sakura</a></li>
+    <li><a href="#" onclick="filterByWord('Kawaii Monster Cafe')">Kawaii Monster Cafe</a></li>
+    <li><a href="#" onclick="filterByWord('Otaku')">Otaku</a></li>
+</ul>
+</div>
+    <div class="word-container">
+        <div id="word-list">
+        </div>
+    </div>
+    </div>
+
+    <template id="word-template">
+        <div class="word-card">
+            <h2 class="dictionary-term"></h2>
+            <p class="dictionary-definition"></p>
+            <h3 class="dictionary-example">Example</h3>
+            <p class="dictionary-example-content"></p>
+        </div>
+    </template>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="dictionary.js"></script>
+    <script src="fashion.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,143 @@
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(248, 226, 243);
+    color: #333;
+}
+
+h1, h2, h3{
+    color: white;
+        text-shadow: -2px -2px 0 #f758ba, 2px -2px 0 #f758ba, -2px 2px 0 #f758ba, 2px 2px 0 #f758ba !important;
+}
+/* Navigation Bar */
+.navbar {
+    border-bottom: 2px solid rgb(233, 95, 164);
+
+}
+
+.navbar-brand {
+    color: #f758ba !important;
+    font-size: xx-large;
+}
+
+.navbar .dropdown-menu {
+    background-color: rgb(245, 214, 228);
+    border-color: rgb(233, 95, 164);
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: rgb(250, 143, 191) !important;
+    border: none !important;
+    color: white !important;
+}
+
+.btn-primary:hover {
+    background-color: rgb(233, 95, 164) !important;
+}
+
+.btn-outline-success {
+    background-color: rgb(250, 143, 191) !important;
+    border-color: rgb(250, 143, 191) !important;
+    color: white !important;
+}
+
+.btn-outline-success:hover {
+    background-color: rgb(233, 95, 164) !important;
+    border-color: rgb(233, 95, 164) !important;
+}
+
+/* About Section */
+section#about {
+    padding: 20px;
+    text-align: center;
+
+}
+
+/* Dictionary Styling */
+.contents-box {
+    background-color: rgb(245, 249, 169);
+    border: 2px solid rgb(169, 249, 212);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.word-card {
+    background-color: rgb(249, 169, 205);
+    border: 2px solid rgb(233, 95, 164);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Table of Contents */
+.contents-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contents-box li {
+    margin: 10px 0;
+}
+
+.contents-box li a {
+    color: rgb(233, 95, 164);
+    text-decoration: none;
+}
+
+.contents-box li a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin: 20px 0;
+    border: 2px solid #f758ba;
+    height: auto;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+/* Responsive Adjustments */
+@media (min-width: 600px) {
+    .contents-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .contents-card{
+            background-color: rgb(249, 169, 205);
+                border: 2px solid rgb(233, 95, 164);
+                padding: 15px;
+                margin: 10px 0;
+                border-radius: 5px;
+    }
+
+    .contents-card ul {
+        width: 30%;
+
+        margin-right: 20px;
+   
+    }
+
+    .word-container {
+        display: block;
+        width: 70%;
+    }
+
+    #word-list {
+        flex: 1;
+    }
+}
