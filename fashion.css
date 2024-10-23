@@ -17,7 +17,7 @@ a {
 
 
 .navbar {
-    position: fixed;
+    position: sticky !important;
     border-bottom: 2px solid rgb(233, 95, 164);
     top: 0;
     z-index: 1000;
@@ -29,7 +29,7 @@ a {
     align-items: center;
     justify-content: space-between;
     height: 100%;
-    background-color: rgb(249, 169, 200) !important;
+background-color: rgb(255, 255, 255) !important;
 }
 
 nav ul {
@@ -41,10 +41,6 @@ nav ul {
 
 }
 
-nav ul li {
-    margin: 5px 0;
-    position: relative
-}
 
 .navbar-brand {
 
@@ -53,32 +49,8 @@ nav ul li {
     margin-left: 20px;
 }
 
-/* dropdown menu
-nav ul li ul {
-    display: none;
-    /* Hide dropdown initially */
-    /* flex-direction: column;
-    position: absolute;
-    background-color: rgb(250, 143, 191);
-    padding: 10px;
-
-} */ 
-
-/* nav ul li:hover ul {
-    display: flex;
-
-} */
-
-/* nav ul li ul a:hover {
-    background-color: rgb(255, 200, 230) !important;
-    color: black;
-} */
 
 #search-input {
-    /* width: 100%;
-    max-width: 200px;
-    padding: 5px;
-    margin: 10px 0; */
     border-color: rgb(233, 95, 164);
 
 }
@@ -88,12 +60,6 @@ nav ul li ul {
     background-color: rgb(245, 214, 228);
 }
 
-/* #search-input::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
-
 
 /* subcultures button */
 .btn-primary {
@@ -101,6 +67,7 @@ nav ul li ul {
     background-color: rgb(250, 143, 191) !important;
     color: white !important;
     border: none !important;
+    margin-right: 10px;
 }
 
 .btn-primary:hover{

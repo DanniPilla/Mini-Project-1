@@ -1,7 +1,7 @@
 const jFashionDictionary = [
   {
     id: 1,
-    term: "Kawaii",
+    term: '"Kawaii"',
     definition:
       "A Japanese term meaning 'cute' or 'adorable,' often associated with fashion, behavior, and aesthetics.",
     exampleUsage:
@@ -10,7 +10,7 @@ const jFashionDictionary = [
   },
   {
     id: 2,
-    term: "Ita",
+    term: '"Ita"',
     definition:
       "A derogatory term for someone who is overly obsessed with fashion to the point of it being tasteless or overly flashy.",
     exampleUsage:
@@ -19,7 +19,7 @@ const jFashionDictionary = [
   },
   {
     id: 3,
-    term: "Brand Whore",
+    term: '"Brand Whore"',
     definition:
       "A term used to describe someone who excessively prefers high-end brands over other fashion styles, often prioritizing brand names over aesthetics.",
     exampleUsage: "He's such a brand whore; he only wears designer labels.",
@@ -27,7 +27,7 @@ const jFashionDictionary = [
   },
   {
     id: 4,
-    term: "Coord",
+    term: '"Coord"',
     definition:
       "Short for 'coordinate,' referring to the complete outfit a person puts together, including clothing, accessories, and shoes.",
     exampleUsage: "Her coord was perfect for the fashion event.",
@@ -35,7 +35,7 @@ const jFashionDictionary = [
   },
   {
     id: 5,
-    term: "Otona",
+    term: '"Otona"',
     definition:
       "Otona 大人, literally translating to 'adult', is a suffix commonly used to indicate the 'mature' versions of a style that are toned-down.",
     exampleUsage: "She prefers otona styles for a more sophisticated look.",
@@ -43,7 +43,7 @@ const jFashionDictionary = [
   },
   {
     id: 6,
-    term: "Blue Letter Fashion",
+    term: '"Blue Letter Fashion"',
     definition:
       "(青文字系/Ao-Moji Kei) used to describe 'countercultural' fashion styles, or styles where you wear whatever you want. This term is commonly used to describe Harajuku styles",
     exampleUsage:
@@ -52,7 +52,7 @@ const jFashionDictionary = [
   },
   {
     id: 7,
-    term: "Otome",
+    term: '"Otome"',
     definition:
       "A style for young women that focuses on a feminine and vintage look, often incorporating dresses and accessories with a romantic flair.",
     exampleUsage:
@@ -61,7 +61,7 @@ const jFashionDictionary = [
   },
   {
     id: 8,
-    term: "Kogal",
+    term: '"Kogal"',
     definition:
       "A subculture where girls adopt a schoolgirl uniform style with a more feminine twist, often including short skirts and loose socks.",
     exampleUsage: "Kogal fashion is trendy among high school girls in Japan.",
@@ -69,7 +69,7 @@ const jFashionDictionary = [
   },
   {
     id: 9,
-    term: "Menhera",
+    term: '"Menhera"',
     definition:
       "A style that combines cute aesthetics with elements that express emotional or mental struggles, often featuring motifs like bandages and soft colors.",
     exampleUsage: "She expresses her feelings through her menhera outfits.",
@@ -77,7 +77,7 @@ const jFashionDictionary = [
   },
   {
     id: 10,
-    term: "Decora",
+    term: '"Decora"',
     definition:
       "A playful and colorful style characterized by an excessive amount of accessories, often including hair clips, bracelets, and colorful clothing.",
     exampleUsage: "Her decora style brightened up the whole street!",
@@ -85,7 +85,7 @@ const jFashionDictionary = [
   },
   {
     id: 11,
-    term: "Banchō",
+    term: '"Banchō"',
     definition:
       "A term used to describe a delinquent or rebellious style, often characterized by baggy clothing and tough accessories.",
     exampleUsage: "His banchō outfit made him look really cool and edgy.",
@@ -93,7 +93,7 @@ const jFashionDictionary = [
   },
   {
     id: 12,
-    term: "Sukeban",
+    term: '"Sukeban"',
     definition:
       "Refers to a female delinquent or gang leader style, often characterized by modified school uniforms and punk elements.",
     exampleUsage: "The sukeban style is both fierce and fashionable.",
@@ -101,7 +101,7 @@ const jFashionDictionary = [
   },
   {
     id: 13,
-    term: "Yukata",
+    term: '"Yukata"',
     definition:
       "A casual summer kimono made of cotton, typically worn at festivals or during hot weather.",
     exampleUsage: "She wore a beautiful yukata to the summer festival.",
@@ -109,7 +109,7 @@ const jFashionDictionary = [
   },
   {
     id: 14,
-    term: "Zoku",
+    term: '"Zoku"',
     definition:
       "A Japanese term for a group or tribe, often referring to specific styles or aesthetics that are collectively recognized.",
     exampleUsage:
@@ -118,7 +118,7 @@ const jFashionDictionary = [
   },
   {
     id: 15,
-    term: "Furisode",
+    term: '"Furisode"',
     definition:
       "A type of kimono characterized by long sleeves, typically worn by young unmarried women during special occasions.",
     exampleUsage: "She looked stunning in her furisode at the wedding.",
@@ -126,7 +126,7 @@ const jFashionDictionary = [
   },
   {
     id: 16,
-    term: "Komon",
+    term: '"Komon"',
     definition:
       "A type of kimono with a patterned fabric that is suitable for both casual and formal occasions.",
     exampleUsage: "Her komon was perfect for the tea ceremony.",
@@ -134,7 +134,7 @@ const jFashionDictionary = [
   },
   {
     id: 17,
-    term: "Obi",
+    term: '"Obi"',
     definition:
       "A wide belt worn with a kimono, used to secure the garment and often elaborately decorated.",
     exampleUsage: "Her obi was beautifully embroidered with floral designs.",
@@ -142,7 +142,7 @@ const jFashionDictionary = [
   },
   {
     id: 18,
-    term: "Harajuku",
+    term: '"Harajuku"',
     definition:
       "A district in Tokyo known for its vibrant youth culture and street fashion.",
     exampleUsage: "She loves shopping in Harajuku for unique fashion pieces.",
@@ -150,7 +150,7 @@ const jFashionDictionary = [
   },
   {
     id: 19,
-    term: "Cosplay",
+    term: '"Cosplay"',
     definition:
       "The practice of dressing up as a character from anime, manga, or video games, often involving intricate costumes and makeup.",
     exampleUsage:
@@ -159,7 +159,7 @@ const jFashionDictionary = [
   },
   {
     id: 20,
-    term: "Aomoji",
+    term: '"Aomoji"',
     definition:
       "A style that mixes Japanese and Western influences, often featuring casual clothing with unique accessories.",
     exampleUsage: "Her aomoji look combines both kawaii and street fashion.",
@@ -167,7 +167,7 @@ const jFashionDictionary = [
   },
   {
     id: 21,
-    term: "Kawaii Culture",
+    term: '"Kawaii Culture"',
     definition:
       "A cultural phenomenon in Japan that emphasizes cuteness as an aesthetic and lifestyle, influencing fashion, behavior, and art.",
     exampleUsage:
@@ -176,7 +176,7 @@ const jFashionDictionary = [
   },
   {
     id: 22,
-    term: "Street Fashion",
+    term: '"Street Fashion"',
     definition:
       "A style of clothing and accessories worn in urban environments, often characterized by individual expression and unique combinations.",
     exampleUsage:
@@ -185,7 +185,7 @@ const jFashionDictionary = [
   },
   {
     id: 23,
-    term: "Aesthetic",
+    term: '"Aesthetic"',
     definition:
       "A set of principles guiding the appreciation of beauty, especially in fashion and visual presentation.",
     exampleUsage: "Her outfit was curated to match her soft aesthetic.",
@@ -193,7 +193,7 @@ const jFashionDictionary = [
   },
   {
     id: 24,
-    term: "Fashionista",
+    term: '"Fashionista"',
     definition:
       "A person who is passionate about fashion and keeps up with the latest trends and styles.",
     exampleUsage:
@@ -202,7 +202,7 @@ const jFashionDictionary = [
   },
   {
     id: 25,
-    term: "Wafuku",
+    term: '"Wafuku"',
     definition:
       "Traditional Japanese clothing, including kimonos and other garments made from natural fibers.",
     exampleUsage: "She prefers wafuku for cultural events and ceremonies.",
@@ -210,7 +210,7 @@ const jFashionDictionary = [
   },
   {
     id: 26,
-    term: "Moe",
+    term: '"Moe"',
     definition:
       "A term that describes a strong affection or adoration for a character or aesthetic, often associated with cuteness.",
     exampleUsage: "She has a moe character plushie collection.",
@@ -218,7 +218,7 @@ const jFashionDictionary = [
   },
   {
     id: 27,
-    term: "Gyaru Sempai",
+    term: '"Gyaru Sempai"',
     definition:
       "Refers to older or more experienced gyaru, often acting as mentors or role models within the fashion community.",
     exampleUsage: "Her gyaru sempai taught her all about the latest trends.",
@@ -226,7 +226,7 @@ const jFashionDictionary = [
   },
   {
     id: 28,
-    term: "Sakura",
+    term: '"Sakura"',
     definition:
       "Cherry blossom, often used in fashion motifs and designs, symbolizing beauty and the transient nature of life.",
     exampleUsage: "Her dress had a beautiful sakura print.",
@@ -234,7 +234,7 @@ const jFashionDictionary = [
   },
   {
     id: 29,
-    term: "Kawaii Monster Cafe",
+    term: '"Kawaii Monster Cafe"',
     definition:
       "A themed restaurant in Harajuku known for its vibrant decor and unique food presentations, embodying kawaii culture.",
     exampleUsage:
@@ -243,7 +243,7 @@ const jFashionDictionary = [
   },
   {
     id: 30,
-    term: "Otaku",
+    term: '"Otaku"',
     definition:
       "A person with an obsessive interest in anime, manga, and video games, often reflected in their fashion choices.",
     exampleUsage:

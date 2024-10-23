@@ -5,19 +5,32 @@ body {
     color: #333;
 }
 
-h1, h2, h3{
+h1, h2, h3, h4{
     color: white;
         text-shadow: -2px -2px 0 #f758ba, 2px -2px 0 #f758ba, -2px 2px 0 #f758ba, 2px 2px 0 #f758ba !important;
 }
 /* Navigation Bar */
 .navbar {
-    border-bottom: 2px solid rgb(233, 95, 164);
-
+    position: sticky !important;
+        border-bottom: 2px solid rgb(233, 95, 164);
+        top: 0;
+        z-index: 1000;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 70px;
+        margin: auto;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+background-color: rgb(255, 255, 255) !important;
 }
 
 .navbar-brand {
+
     color: #f758ba !important;
-    font-size: xx-large;
+    font-size: xx-large !important;
+    margin-left: 20px;
 }
 
 .navbar .dropdown-menu {
@@ -30,6 +43,7 @@ h1, h2, h3{
     background-color: rgb(250, 143, 191) !important;
     border: none !important;
     color: white !important;
+    margin-right: 10px;
 }
 
 .btn-primary:hover {
@@ -40,6 +54,7 @@ h1, h2, h3{
     background-color: rgb(250, 143, 191) !important;
     border-color: rgb(250, 143, 191) !important;
     color: white !important;
+    margin-right: 10px;
 }
 
 .btn-outline-success:hover {
